@@ -1,0 +1,19 @@
+/* image 1 */
+
+.hero-container {
+  width: 100%;
+  margin-bottom: 15px;
+  background-color: #bed5dd;
+  display: flex;
+  justify-content: center;
+}
+
+.img {
+  margin: 2px auto;
+  justify-content: center;
+  align-items: center;
+  border-radius: 23px;
+  width: 92%;
+  height: 95vh;
+  object-fit: cover;
+}

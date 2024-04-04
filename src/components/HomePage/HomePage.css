@@ -1,0 +1,89 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+/* watch section */
+.watch-container {
+  padding: 50px;
+  width: 92%;
+  margin: auto;
+  margin-bottom: 15px;
+  height: 400px;
+  background-color: #393e46 !important ;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 150px;
+  border-radius: 23px;
+}
+
+.watch-container .watch-left {
+  background-color: #393e46;
+}
+
+.watch-container .watch-left h3 {
+  background-color: #393e46;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  font-size: 50px;
+  padding: 50px;
+  padding-left: 100px;
+}
+
+.watch-container img {
+  background-color: #393e46;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* ear section */
+.ear-container {
+  overflow: hidden;
+  width: 92%;
+  margin: auto;
+  margin-bottom: 15px;
+  justify-content: center;
+  height: 400px;
+  background-color: #393e46 !important ;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 30px;
+  border-radius: 23px;
+}
+
+.ear-container .ear-mid {
+  background-color: #393e46;
+  display: flex;
+  align-items: center;
+}
+
+.ear-container .ear-mid h3 {
+  background-color: #393e46;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  font-size: 50px;
+  align-items: center;
+}
+
+.ear-container .ear-left {
+  background-color: #393e46;
+}
+
+.ear-container .ear-left h3 {
+  background-color: #393e46;
+  display: flex;
+  justify-content: space-around;
+  font-size: 50px;
+}
+
+.ear-container img {
+  background-color: #393e46;
+  height: 100%;
+  object-fit: cover;
+}
